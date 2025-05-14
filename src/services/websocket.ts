@@ -11,7 +11,7 @@ export class WebSocketService {
   private timingServiceState = false;
   private lastConnectionStatus: 'connected' | 'disconnected' | 'error' = 'disconnected';
   private currentSessionId: string | null = null;
-  private baseUrl = 'ws://localhost:8000/ws/sessions';
+  private baseUrl = 'ws://localhost:3001/ws/sessions';
   private reconnectAttempts = 0;
   private maxReconnectAttempts = 5;
   private reconnectDelay = 1000;

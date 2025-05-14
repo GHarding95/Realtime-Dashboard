@@ -3,7 +3,7 @@ import { Session } from '../types/session';
 import { RawResult } from '../types/result';
 
 // Use the Node.js server URL
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'http://localhost:3001/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
