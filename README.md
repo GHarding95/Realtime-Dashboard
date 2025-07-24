@@ -1,6 +1,8 @@
 # Realtime Racing Dashboard
 
-A real-time racing dashboard that displays live timing and results for racing events - **API HAS BEEN DISABLED.
+**API HAS BEEN DISABLED.
+
+A real-time racing dashboard that displays live timing and results for racing events.
 
 ## Features
 
